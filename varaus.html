@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ravintola.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Ravintola Mario</title>
+</head>
+<body>
+  
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <img src="lippu.jpg" class="lippu">
+          <div class="logo"><a href="#">Ravintola Mario</a></div>
+            <ul class="links">
+              <li><a href="Etusivu.html">ETUSIVU</a></li>
+              <li>
+                <a href="#" class="desktop-link">MENU</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">MENU</label>
+                <ul>
+                  <li><a href="alacarte.html">A LA CARTE</a></li>
+                  <li><a href="pizza.html">PIZZAT</a></li>
+                  <li><a href="viini.html">VIINIT</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="varaus.html" class="desktop-link">PÖYTÄVARAUS</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">PÖYTÄVARAUKSET</label>
+                  </li>
+                </ul>
+              </li>
+          </div>
+          <div class="socialtop">
+            <div class="top-social">
+              <ul>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+             </ul>
+            </div>
+          </div> 
+        </div>
+    </nav>
+
+    <section class="banner">
+        
+        <div class="card-container">
+            <div class="card-img">
+                
+        </div>
+        <div class="card-content">
+            <h3>PÖYTÄVARAUS</h3>
+            <form>
+                <div class="form-row">
+                    <select  name="days">
+                        <option value="day-select">Valitse Päivä</option>
+                        <option value="sunnuntai">Maanantai</option>
+                        <option value="sunnuntai">Tiistai</option>
+                        <option value="sunnuntai">Keskiviikko</option>
+                        <option value="sunnuntai">Torstai</option>
+                        <option value="sunnuntai">Perjantai</option>
+                        <option value="sunnuntai">Lauantai</option>
+                        <option value="sunnuntai">Sunnuntai</option>
+                    </select>
+
+                    <select name="hours">
+                        <option value="hour-select"> Valitse Tunnit</option>
+                        <option value="10">13:00-15:00</option>
+                        <option value="10">15:00-16:00</option>
+                        <option value="10">17:00-19:00</option>
+                        <option value="10">19:00-21:00</option>
+                        <option value="10">21:00-23:00</option>
+                         </select>
+                </div>
+
+                <div class="form-row">
+                    <input type="text" placeholder="Koko Nimi">
+                    <input type="text" placeholder="Puhelin Numero">
+                </div>
+
+                <div class="form-row">
+                    <input type="number" placeholder="Monta henkilöä?" min="1">
+                    <input type="submit" value="VARAA">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+      
+      <footer>
+        <div class="main-content">
+          <div class="left box">
+            <h2>AUKI OLOAJAT</h2>
+            <div class="content">
+              <p>TI-PE: 16-23 (KEITTIÖ 22.00)<br> LA: 13-23 (KEITTIÖ 22.00)<br>SU-MA SULJETTU </p>
+            
+            </div>
+          </div>
+          <div class="center box">
+            <h2>OSOITE</h2>
+            <div class="content">
+            <p>Turku, Linnankatu 6 E, 20200<br>+358406852776<br>ravintolamario@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <center>
+            <span class="credit"><a href="">RAVINTOLAMARIO</a> | </span>
+            <span class="far fa-copyright"></span><span> 2021 Kaikki oikeudet pidätetty.</span>
+          </center>
+        </div>
+      </footer>
+
+      
+    
+</body>
+</html>
